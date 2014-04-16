@@ -73,3 +73,2942 @@ Started GET "/" for 127.0.0.1 at 2014-04-15 19:43:56 -0400
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 19:49:28 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 19:49:29 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 19:49:30 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 19:53:24 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:14 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:15 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:15 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:16 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:16 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:16 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:16 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:18 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:18 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:18 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:18 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.6ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:03:21 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:55 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:56 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:56 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:57 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:57 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:58 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:58 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:59 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:04:59 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:05:00 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/images
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/javascripts
+  /Users/Zack/Dropbox/Projects/soundcloudbud/vendor/assets/stylesheets
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/Zack/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Zack/Dropbox/Projects/soundcloudbud/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Soundcloudbud</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1954165750361304872_2173805600'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:05:59 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7416ms (Views: 7396.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:06:06 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:07 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:06:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:10 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 873ms (Views: 872.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:07:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:09:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:12:54 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 82ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:12:55 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:12:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:13:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:13:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:15:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+
+
+Started GET "/callback.htmlk" for 127.0.0.1 at 2014-04-15 20:28:31 -0400
+
+ActionController::RoutingError (No route matches [GET] "/callback.htmlk"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/callbakck.html" for 127.0.0.1 at 2014-04-15 20:28:36 -0400
+
+ActionController::RoutingError (No route matches [GET] "/callbakck.html"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Zack/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:29:03 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:29:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:04 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:04 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:29:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:30:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:33:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:34:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:35:26 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:35:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:36:20 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1399ms (Views: 1398.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:36:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:36:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:37:21 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1289ms (Views: 1287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:37:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:38:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:39:50 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:40:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:40:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:16 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:41:17 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:41:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:54 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:42:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:43:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:43:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:44:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:45:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:46:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:47:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:47:46 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:51:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:52:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:55:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 20:56:03 -0400
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:56:03 -0400
+
+
+Started GET "/assets/auth.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:03 -0400
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:04 -0400
+
+
+Started GET "/assets/music.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:56:04 -0400

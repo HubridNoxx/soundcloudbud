@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+gem "font-awesome-rails"
+
+gem 'rails_refactor', '~> 1.3'
+
+gem 'bootstrap-sass', '~> 3.1.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
